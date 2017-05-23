@@ -1,0 +1,75 @@
+<image name="openSUSE_Leap_42.2" schemaversion="5.2" displayname="openSUSE_Leap_42.2_GNOME_desk">
+  <description type="system">
+    <author>Christian Bruckmayer</author>
+    <contact>cbruckmayer@suse.de</contact>
+    <specification>openSUSE Leap 42.2 GNOME</specification>
+  </description>
+  <preferences>
+    <type checkprebuilt="true" boot="vmxboot/suse-leap42.1" fsnocheck="true" filesystem="ext3" bootloader="grub2" format="qcow2" image="vmx">
+    <size unit="M" additive="false">16384</size>
+    </type>
+    <version>0.0.1</version>
+    <packagemanager>zypper</packagemanager>
+    <rpm-check-signatures>false</rpm-check-signatures>
+    <rpm-force>false</rpm-force>
+    <bootsplash-theme>openSUSE</bootsplash-theme>
+    <bootloader-theme>openSUSE</bootloader-theme>
+    <timezone>UTC</timezone>
+    <hwclock>localtime</hwclock>
+  	<locale>en_US</locale>
+  </preferences>
+  <repository type="rpm-md">
+    <source path="obs://openSUSE:Leap:42.2:Update/standard" />
+  </repository>
+  <repository type="rpm-md">
+    <source path="obs://openSUSE:Leap:42.2/standard" />
+  </repository>
+  <packages type="image" patternType="onlyRequired">
+    <package name="grub" />
+    <package name="patterns-openSUSE-gnome" />
+    <package name="patterns-openSUSE-gnome_utilities" />
+    <package name="patterns-openSUSE-minimal_base" />
+    <package name="gnome-power-manager" />
+    <package name="gnome-terminal" />
+    <package name="gtk3-branding-openSUSE" />
+    <package name="gvfs-backends" />
+    <package name="libgnomesu" />
+    <package name="gnote" />
+    <package name="yast2-control-center-gnome" />
+    <package name="sax3" />
+    <package name="x11-tools" />
+    <package name="xorg-x11" />
+    <package name="xorg-x11-driver-input" />
+    <package name="xorg-x11-driver-video" />
+    <package name="xorg-x11-fonts" />
+    <package name="grub2-branding-openSUSE" />
+    <package name="gfxboot-branding-openSUSE" />
+    <package name="yast2-x11" />
+    <package name="SuSEfirewall2" />
+    <package name="less" />
+    <package name="yast2-firstboot" />
+    <package name="e2fsprogs" />
+    <package name="branding-openSUSE" />
+    <package name="patterns-openSUSE-base" />
+    <package name="grub2" />
+    <package name="iputils" />
+    <package name="kernel-default" />
+    <package name="plymouth" />
+    <package name="syslog-ng" />
+    <package name="vim" />
+    <package name="zypper" />
+    <package name="timezone" />
+    <package name="gsettings-backend-dconf" />
+    <package name="glibc" />
+    <package name="glibc-locale" />
+    <package name="open-vm-tools" />
+    <package name="gfxboot-devel" bootinclude="true" />
+    <package name="libyui-qt-pkg7" />
+  </packages>
+  <packages type="bootstrap">
+    <package name="openSUSE-release" />
+    <package name="filesystem" />
+    <package name="glibc-locale" />
+    <package name="module-init-tools" />
+  </packages>
+</image>
