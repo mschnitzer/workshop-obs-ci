@@ -77,3 +77,9 @@ c_rehash
 # Exercise 9
 #--------------------------------------
 systemctl enable apache2.service
+
+#======================================
+# Exercise 10
+#--------------------------------------
+systemctl enable postgresql-server.service
+
