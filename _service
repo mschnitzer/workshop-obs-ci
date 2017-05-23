@@ -1,0 +1,19 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">git://github.com/TODO</param>
+    <param name="scm">git</param>
+    <param name="exclude">.git</param>
+    <param name="version">git-master</param>
+    <param name="versionformat">0.1+git%cd.%h</param>
+    <param name="revision">master</param>
+    <param name="changesgenerate">enable</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">bz2</param>
+  </service>
+  <service name="set_version">
+    <param name="basename">hello-world</param>
+  </service>
+</services>
+
