@@ -19,6 +19,7 @@
   	<locale>en_US</locale>
   </preferences>
 
+  <!-- Exercise 2 -->
   <users group="root">
     <user name="root" pwd="$1$Wxv0eOP6$l.L6f.4d7ct76B408CkSL0" home="/root" shell="/bin/bash" />
   </users>
@@ -73,7 +74,10 @@
     <package name="open-vm-tools" />
     <package name="gfxboot-devel" bootinclude="true" />
     <package name="libyui-qt-pkg7" />
+    <!-- Exercise 7 -->
     <package name="hello-world" />
+    <!-- Exercise 9 -->
+    <package name="apache2" />
   </packages>
   <packages type="bootstrap">
     <package name="openSUSE-release" />
