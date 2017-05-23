@@ -65,6 +65,9 @@
     <package name="open-vm-tools" />
     <package name="gfxboot-devel" bootinclude="true" />
     <package name="libyui-qt-pkg7" />
+
+    <!-- Exercise 7 -->
+    <package name="hello-world" />
   </packages>
   <packages type="bootstrap">
     <package name="openSUSE-release" />
