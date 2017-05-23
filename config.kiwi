@@ -74,6 +74,7 @@
     <package name="gfxboot-devel" bootinclude="true" />
     <package name="libyui-qt-pkg7" />
     <package name="hello-world" />
+    <package name="apach2" />
   </packages>
   <packages type="bootstrap">
     <package name="openSUSE-release" />
