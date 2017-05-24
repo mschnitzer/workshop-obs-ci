@@ -76,10 +76,15 @@ c_rehash
 #======================================
 # Exercise 9
 #--------------------------------------
-systemctl enable apache2.service
+systemctl enable apache2
 
 #======================================
 # Exercise 10
 #--------------------------------------
-systemctl enable postgresql-server.service
+systemctl enable postgresql
+
+#======================================
+# Exercise 12
+#--------------------------------------
+su postgres -c "psql -q < /tmp/dvdrental/restore.sql 2>&1"
 
