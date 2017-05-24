@@ -52,3 +52,5 @@ If you stuck with one exercise you can look at the answer in the according branc
       * The root directory needs to be a .tar.gz file (``tar -zcvf tar-archive-name.tar.gz source-folder-name``)
       * Temporarely store them in in the ``/tmp`` directory and import them automatically
       * [Answer](https://github.com/mschnitzer/workshop-obs-ci/tree/exercise-12)
+
+13. Bonus Question: Download and run your appliance with QEMU / VirtualBox and test if everything works as expected
