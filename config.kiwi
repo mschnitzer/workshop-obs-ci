@@ -33,6 +33,12 @@
   <repository type="rpm-md">
     <source path="obs://openSUSE:Leap:42.2/standard" />
   </repository>
+
+  <!-- Exercise 7 -->
+  <repository type="rpm-md">
+    <source path="obs://home:USERNAME/standard" />
+  </repository>
+
   <packages type="image" patternType="onlyRequired">
     <package name="grub" />
     <package name="patterns-openSUSE-gnome" />
@@ -74,6 +80,8 @@
     <package name="open-vm-tools" />
     <package name="gfxboot-devel" bootinclude="true" />
     <package name="libyui-qt-pkg7" />
+
+    <!-- Exercise 7 -->
     <package name="hello-world" />
   </packages>
   <packages type="bootstrap">
