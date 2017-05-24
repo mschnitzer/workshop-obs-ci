@@ -19,7 +19,7 @@
   	<locale>en_US</locale>
   </preferences>
 
-  <!-- Exercise 2 -->
+  <!-- Exercise 8 -->
   <users group="root">
     <user name="root" pwd="$1$Wxv0eOP6$l.L6f.4d7ct76B408CkSL0" home="/root" shell="/bin/bash" />
   </users>
@@ -33,6 +33,12 @@
   <repository type="rpm-md">
     <source path="obs://openSUSE:Leap:42.2/standard" />
   </repository>
+
+  <!-- Exercise 7 -->
+  <repository type="rpm-md">
+    <source path="obs://home:USERNAME/standard" />
+  </repository>
+
   <packages type="image" patternType="onlyRequired">
     <package name="grub" />
     <package name="patterns-openSUSE-gnome" />
