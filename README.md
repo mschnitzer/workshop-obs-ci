@@ -11,7 +11,7 @@ If you stuck with one exercise you can look at the answer in the according branc
       * https://en.opensuse.org/openSUSE:Build_Service_Tutorial
 
 4. The package should contain a _service file which fetches the sources from the GitHub repository you created in the previous step
-  * https://en.opensuse.org/openSUSE:Build_Service_Concept_SourceService
+      * https://en.opensuse.org/openSUSE:Build_Service_Concept_SourceService
 
 5. Connect GitHub with OBS in order to let GitHub trigger a build if a new commit has been pushed to master
       * You can create a security token with `osc token`
@@ -25,11 +25,11 @@ If you stuck with one exercise you can look at the answer in the according branc
       * https://doc.opensuse.org/projects/kiwi/doc/#sec.description.users
 
 9. Add the apache2 package and make sure that apache gets automatically started
-      * You can enable services in the config.sh script
+      * You can enable services in the `config.sh` script
       * You can start the apache2 webserver via ``systemctl enable apache2``
 
 10. Add the postgresql94-server and pgadmin3 package to your appliance and make sure that the postgressql server gets started automatically
-      * You can enable services in the config.sh script
+      * You can enable services in the `config.sh` script
       * you can start the postgresql-server via ``systemctl enable postgresql``
 
 11. Add a simple ``Hello World`` html file to your apache2 webserver
@@ -37,6 +37,6 @@ If you stuck with one exercise you can look at the answer in the according branc
       * The root directory needs to be a tar.gz file (``tar -zcvf tar-archive-name.tar.gz source-folder-name``)
       * The html files need to go into ``/srv/www/htdocs``
 
-12. Add a postgressql database dump to the `/tmp` directory
+12. Add a postgresql database dump to the `/tmp` directory
       * You should add the files to the ``/root`` directory
-      * The root directory needs to be a tar.gz file (``tar -zcvf tar-archive-name.tar.gz source-folder-name``)
+      * The root directory needs to be a .tar.gz file (``tar -zcvf tar-archive-name.tar.gz source-folder-name``)
