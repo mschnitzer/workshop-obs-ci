@@ -34,11 +34,13 @@ If you stuck with one exercise you can look at the answer in the according branc
 9. Add the ``apache2`` package and make sure that apache gets started automatically
       * You can enable services in the `config.sh` script
       * You can start the apache2 webserver via ``systemctl enable apache2``
+      * https://doc.opensuse.org/projects/kiwi/doc/#ref.kiwi.config.sh
       * [Answer](https://github.com/mschnitzer/workshop-obs-ci/tree/exercise-9)
 
 10. Add the ``postgresql94-server`` and ``pgadmin3`` package to your appliance and make sure that the postgressql server gets started automatically
       * You can enable services in the `config.sh` script
       * you can start the postgresql-server via ``systemctl enable postgresql``
+      * https://doc.opensuse.org/projects/kiwi/doc/#ref.kiwi.config.sh
       * [Answer](https://github.com/mschnitzer/workshop-obs-ci/tree/exercise-10)
 
 11. Add a simple ``Hello World`` html file to your apache2 webserver
