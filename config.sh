@@ -75,10 +75,10 @@ c_rehash
 #======================================
 # Exercise 9
 #--------------------------------------
-systemctl enable apache2
+suseInsertService apache2
 
 #======================================
 # Exercise 10
 #--------------------------------------
-systemctl enable postgresql-server
+suseInsertService postgresql-server
 
