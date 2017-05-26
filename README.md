@@ -53,6 +53,7 @@ If you stuck with one exercise you can look at the answer in the according branc
       * You should add the files to the ``/root`` directory
       * The root directory needs to be a .tar.gz file (``tar -zcvf tar-archive-name.tar.gz source-folder-name``)
       * Temporarely store them in in the ``/tmp`` directory and import them automatically
+      * You need to extract the dvdrentar.zip file before you can import it in the database
       * You can import a database dump with ``su postgres -c "psql -q < /tmp/dvdrental/restore.sql 2>&1"``
       * [Answer](https://github.com/mschnitzer/workshop-obs-ci/tree/exercise-12)
 
