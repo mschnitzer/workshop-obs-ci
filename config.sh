@@ -75,4 +75,4 @@ c_rehash
 #======================================
 # Exercise 9
 #--------------------------------------
-systemctl enable apache2
+suseInsertService apache2
